@@ -1,0 +1,24 @@
+.mainName{
+  padding-left: 10px;
+    width: 100%
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 3fr 2fr;  
+    padding:0px 10px 10px 10px;
+}
+
+.imageHolder{
+    background-color: antiquewhite;
+    height: 50vh;
+    width: 100%;
+}
+
+.productNums{
+    padding-left: 15px;
+}
+
+.addCartButtons{
+width: 100%;
+}

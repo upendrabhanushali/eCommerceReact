@@ -1,0 +1,45 @@
+.donateNow {
+    list-style-type: none;
+    margin: 10px 0 40px 0px;
+    padding: 0px 0px 10px 0px;
+  }
+  
+  .donateNow li {
+    float: left;
+    margin: 0 5px 0 0;
+    width: 50px;
+    height: 40px;
+    position: relative;
+  }
+  
+  .donateNow label,
+  .donateNow input {
+    display: block;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+  
+  .donateNow input[type="radio"] {
+    opacity: 0.01;
+    z-index: 100;
+  }
+  
+  .donateNow input[type="radio"]:checked+label,
+  .Checked+label {
+    background: salmon;
+  }
+  
+  .donateNow label {
+    padding: 5px;
+    border: 1px solid #000;
+    border-radius:50px;
+    z-index: 90;
+  }
+  
+  
+ 
+ 
